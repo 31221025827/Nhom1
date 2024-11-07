@@ -30,11 +30,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+    
+    <!-- Tạo navigation-->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-
+    <!-- Nút toggle để mở menu trên thiết bị di động -->
                 <button type="button" class="navbar-toggle collapsed" data- toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 
@@ -43,9 +45,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+    <!-- Logo hoặc tên thương hiệu -->
                 <a class="navbar-brand" href="#">Brand</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- Nội dung của thanh điều hướng, bao gồm các liên kết -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
 
@@ -53,6 +57,7 @@
 
                     <li><a href="#">Link</a></li>
                     <li class="dropdown">
+            <!-- Menu thả xuống với các liên kết khác nhau -->
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                             aria-expanded="false">Dropdown <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -66,6 +71,7 @@
                         </ul>
                     </li>
                 </ul>
+             <!-- Form tìm kiếm trên thanh điều hướng -->
                 <form class="navbar-form navbar-left">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search">
@@ -74,6 +80,7 @@
                     <button type="submit" class="btn btn-default">Submit</button>
 
                 </form>
+             <!-- Phần menu bên phải của thanh điều hướng -->
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Link</a></li>
                     <li class="dropdown">
@@ -100,20 +107,26 @@
             </div>
         </div>
     </nav>
+     <!-- Form tìm kiếm dành cho thiết bị di động (hiển thị khi màn hình nhỏ) -->
     <form class="visible-xs-inline-block" style="margin-top:10px">
 
         <div class="form-group">
             <input type="text" class="form-control" placeholder="Search">
         </div>
     </form>
+    
+    <!-- Form tìm kiếm hiển thị trên màn hình lớn (ẩn khi màn hình nhỏ) -->
     <form class="navbar-form navbar-left hidden-xs">
         <div class="form-group">
             <input type="text" class="form-control" placeholder="Search">
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
     </form>
+
+    <!-- Nút đăng nhập nằm ở giữa thanh điều hướng -->
     <button type="button" class="btn btn-default navbar-btn navbar-center">Sign in</button>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -141,7 +154,9 @@
                 </div>
             </div>
         </div>
+        
         <!-- Controls -->
+        <!-- Các nút điều hướng của carousel -->
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -151,8 +166,12 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+
+    <!--Layout-->
     <div class="row">
         <div class="col-sm-4 col-md-3">
+
+            <!-- Tạo danh mục-->
             <h3>Categories</h3>
             <ul class="list-group">
                 <li class="list-group-item">
@@ -166,6 +185,8 @@
                 </li>
             </ul>
         </div>
+
+        <!-- Danh sách sản phẩm cụ thể -->
         <div class="col-sm-8 col-md-9">
             <div class="row">
                 <!-- Sản phẩm 1 -->
